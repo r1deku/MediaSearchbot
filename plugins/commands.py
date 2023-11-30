@@ -18,10 +18,7 @@ async def start(bot, message):
             InlineKeyboardButton('Join Here📢')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
-        await message.reply_text(
-            text=INVITE_MSG,
-            reply_markup=reply_markup
-        )
+        await message.reply_text(text=INVITE_MSG, reply_markup=reply_markup)
     else:
         buttons = [[
             InlineKeyboardButton('Search Here', switch_inline_query_current_chat=''),
