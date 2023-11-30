@@ -30,13 +30,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-Hi, I'm Media Search bot
+𝙃𝙞, 𝙄'𝙢 𝙈𝙚𝙙𝙞𝙖 𝙎𝙚𝙖𝙧𝙘𝙝 𝙗𝙤𝙩
 
-Here you can search files in inline mode. Just press following buttons SEARCH HERE and start searching or Just type @InlineFilmBot in any chat and type the name of the movie with a space
+  𝙃𝙚𝙧𝙚 𝙮𝙤𝙪 𝙘𝙖𝙣 𝙨𝙚𝙖𝙧𝙘𝙝 𝙛𝙞𝙡𝙚𝙨 𝙞𝙣 𝙞𝙣𝙡𝙞𝙣𝙚 𝙢𝙤𝙙𝙚. 𝙔𝙤𝙪 𝙘𝙖𝙣 𝙜𝙚𝙩 𝙢𝙤𝙫𝙞𝙚 𝙖𝙣𝙮𝙬𝙝𝙚𝙧𝙚 𝙟𝙪𝙨𝙩 𝙩𝙮𝙥𝙚 𝙗𝙤𝙩 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚 𝙖𝙣𝙙 𝙡𝙚𝙖𝙫𝙚 𝙖 𝙨𝙥𝙖𝙘𝙚 𝙖𝙣𝙙 𝙥𝙪𝙩 𝙢𝙤𝙫𝙞𝙚 𝙣𝙖𝙢𝙚
 
-Eg: @InlineFilmBot MOVIE NAME
+𝙀𝙜: @InlineFilmBot 𝙈𝙊𝙑𝙄𝙀 𝙉𝘼𝙈𝙀
 
-NB: To use this bot first you need to subscribe @InlineFilmUpdate"""
+𝙉𝘽: 𝙏𝙤 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝙗𝙤𝙩 𝙛𝙞𝙧𝙨𝙩 𝙮𝙤𝙪 𝙣𝙚𝙚𝙙 𝙩𝙤 𝙨𝙪𝙗𝙨𝙘𝙧𝙞𝙗𝙚 @InlineFilmUpdate"""
 
 START_MSG = environ.get('START_MSG', default_start_msg)
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
