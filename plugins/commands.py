@@ -15,7 +15,7 @@ async def start(bot, message):
     """Start command handler"""
     if len(message.command) > 1 and message.command[1] == 'subscribe':
         await message.reply_text(
-            text=INVITE_MSG,
+            INVITE_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [[
             InlineKeyboardButton('Join Here📢')
