@@ -17,7 +17,7 @@ async def start(bot, message):
         await message.reply_text(
             INVITE_MSG,
             reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton('Join Here📢')
+            InlineKeyboardButton('Join Here📢', url='t.me/InlineFilmUpdate')
         ]])
         )
     else:
