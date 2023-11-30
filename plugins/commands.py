@@ -31,7 +31,7 @@ async def start(bot, message):
             InlineKeyboardButton('ɢʀᴏᴜᴩ 👥', url='https://t.me/Mkv_OTT')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_photo(photo=https://graph.org/file/b84cba715ae4d8c323b49.jpg, text=START_MSG, reply_markup=reply_markup)
+        await message.reply(START_MSG, reply_markup=reply_markup)
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
