@@ -40,4 +40,4 @@ NB: To use this bot first you need to subscribe @InlineFilmUpdate"""
 
 START_MSG = environ.get('START_MSG', default_start_msg)
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
-INVITE_MSG = environ.get('INVITE_MSG', 'Please join @InlineFilmUpdate to use this bot')
+INVITE_MSG = environ.get('INVITE_MSG', '• 𝗝𝗼𝗶𝗻 𝗠𝘆 𝗨𝗽𝗱𝗮𝘁𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗧𝗼 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗲...')
