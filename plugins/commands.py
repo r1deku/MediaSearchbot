@@ -22,8 +22,13 @@ async def start(bot, message):
         )
     else:
         buttons = [[
-            InlineKeyboardButton('Search Here', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Go Inline', switch_inline_query=''),
+            InlineKeyboardButton('🔎 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔍', switch_inline_query_current_chat='')
+        ], [
+            InlineKeyboardButton('🔎 ꜱᴇᴀʀᴄʜ ꜱᴏᴍᴇᴡʜᴇʀᴇ', switch_inline_query=''),
+            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ 🔉', url='t.me/InlineFilmUpdate')
+        ], [
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 📢', url='https://t.me/MKV_Tv'),
+            InlineKeyboardButton('ɢʀᴏᴜᴩ 👥', url='https://t.me/Mkv_OTT')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(START_MSG, reply_markup=reply_markup)
