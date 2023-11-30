@@ -24,7 +24,7 @@ async def start(bot, message):
         buttons = [[
             InlineKeyboardButton('🔎 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔍', switch_inline_query_current_chat='')
         ], [
-            InlineKeyboardButton('🔎 ꜱᴇᴀʀᴄʜ ꜱᴏᴍᴇᴡʜᴇʀᴇ', switch_inline_query=''),
+            InlineKeyboardButton('🔎 ɢᴏ ɪɴʟɪɴᴇ', switch_inline_query=''),
             InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ 🔉', url='t.me/InlineFilmUpdate')
         ], [
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 📢', url='https://t.me/MKV_Tv'),
